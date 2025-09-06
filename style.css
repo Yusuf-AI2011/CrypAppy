@@ -30,10 +30,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    opacity: 0.8;
 }
 
 .nav-img {
     width: 200px;
+    /* margin-top: 00px; */
 }
 
 .nav-list {
@@ -51,6 +53,10 @@ nav {
     font-size: 18px;
     line-height: 20px;
     color: #FFFFFF;
+}
+
+.nav-link:hover {
+    color: #159BE8;
 }
 
 .nav-but {
@@ -92,12 +98,14 @@ header {
 
 .head-img {
     width: 200px;
+    /* margin-top: -300px; */
 }
 
 .right-img {
     width: 900px;
-    margin-left: 500px;
-    margin-top: -550px;
+    margin-left: 600px;
+    margin-top: -670px;
+
 }
 
 .mid1 {
